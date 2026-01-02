@@ -139,8 +139,8 @@ def image_maker(
     # vb Icon heights
     vb_icon1_resized = icons[0].resize(icon1_resized.size,Image.LANCZOS)
     vb_icon2_resized = icons[3].resize(icon1_resized.size,Image.LANCZOS)
-    vb_icon3_resized = icons[2].resize(icon1_resized.size,Image.LANCZOS)
-    vb_icon4_resized = icons[2].resize(icon1_resized.size,Image.LANCZOS)
+    vb_icon3_resized = icons[4].resize(icon1_resized.size,Image.LANCZOS)
+    vb_icon4_resized = icons[5].resize(icon1_resized.size,Image.LANCZOS)
                     
     # Draw
     vb_draw = ImageDraw.Draw(canvas)
