@@ -1,9 +1,13 @@
 This is a simple python project created with the aim of streamlinning the process of adding information banners to real state photos. 
 
-It's composed by 3 blocks of code: 
+It's composed by 3 blocks of code.
+
 Excel Reader: reads and prepares the information to be inserted on the banners from an excel file
+
 Image Maker: takes the information from the excel and creates a new image with the banners
+
 Folder Processor: takes a mother folder and creates a copy with bannered photos inside
+
 
 How to use: 
 
